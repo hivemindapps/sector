@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const program = require('commander');
+const Sector = require('../index');
+
+program.version(require('../package').version);
+program.parse(process.argv);
+
+Sector.listen(config.PORT, () => {
+  console.log(`
+    Sector is listening on port ${config.PORT}
+  `)
+})
+
+module.exports = Sector;

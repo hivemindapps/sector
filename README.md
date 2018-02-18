@@ -1,6 +1,9 @@
 # sector
 > open source log collection and error tracking platform
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
+
 ## running in production 
 
 ```

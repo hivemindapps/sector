@@ -16,7 +16,8 @@ services:
     image: 'bitnami/elasticsearch:latest'
     networks:
       - app-tier
-
+    volumes:
+      - ./elasticsearch:/bitnami/elasticsearch
   server:
     build:
       context: .

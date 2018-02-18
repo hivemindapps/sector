@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(helmet())
 
-console.log(lib.router)
+lib.router(app)
 
 exports.lib = lib
 exports.sector = app

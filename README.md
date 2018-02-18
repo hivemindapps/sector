@@ -26,3 +26,7 @@ the sector docker-compose.yml will boot up
 * node
 * mongo
 * client container
+
+### elasticsearch 
+
+sector uses the [bitnami elasticSearch docker image](https://github.com/bitnami/bitnami-docker-elasticsearch).

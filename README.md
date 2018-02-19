@@ -30,3 +30,15 @@ the sector docker-compose.yml will boot up
 ### elasticsearch 
 
 sector uses the [bitnami elasticSearch docker image](https://github.com/bitnami/bitnami-docker-elasticsearch).
+
+# Roadmap 
+
+
+- [ ] Easy to use visualizer / querying interface
+- [ ] Token-based user & app authentication 
+- [ ] Lightweight client library 
+- [ ] Alerts and notifications
+- [ ] Mobile app
+
+# Contributing 
+We're a one man team over here, for the forseeable future. If you're interested in helping us out, please join the Hivemind Patreon or consider submitting a pull request! The spirit of collaboration and support is what keeps our faith in humanity.
